@@ -1,15 +1,21 @@
+
+```
 export KUBECONFIG=kubeconfig.txt
+```
 
 ### before connecting CVO Workspace with K8s Cluster
 
+```
 kubectl get sc
 
 kubectl get pv
 
 kubectl get pods --all-namespaces
+```
 
 ### After K8S with connected with CVO in OCCM
 
+```
 mac$ kubectl get sc
 
 mac$ kubectl get pv
@@ -40,3 +46,4 @@ mac$ kubectl exec -it my-nginx-b7b56756c-qdrhr sh
 # echo "<h1>the quick brown fox jumps over the lazy dog on host $HOSTNAME </h1>" > index.html
 
 mac$ kubectl get pods
+```
