@@ -1,3 +1,8 @@
+## Using Cloud Volumes ONTAP as persistant storage in a NKS Kubernetes Cluster
+
+## Objectives 
+This exercise focuses on enabling you to do the following:
+- Create a simple service in a NKS deployed Kubernetes Cluster. As an example, this K8s deployment will create a simple Webservice, using nginx.
 
 ```
 export KUBECONFIG=kubeconfig.txt
